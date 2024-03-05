@@ -1,0 +1,80 @@
+body{
+    background-color: blanchedalmond;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.page {
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+    margin: 20px 40px;
+  }
+  
+  .heading_section {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .heading_section h1{
+      letter-spacing: 10px;
+      font-weight : 900;
+      font-size: 40px;
+  }
+  
+  .heading_section button{
+      margin-top: 20px;
+      height: 0px;
+      border: none;
+      background-color: transparent;
+      text-align: center;
+      font-size: 50px;
+      cursor: pointer;
+  }
+
+
+  .BlogCard{
+    border: 2px solid rgb(241, 199, 135);
+    border-radius: 7px;
+  }
+
+
+  .BlogCardTop{
+    background-color: rgb(89, 89, 206);
+    margin: 20px;
+    border: none;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+
+
+  #title , #description {
+    color: white;
+    line-height: 45px;
+  }
+ 
+#title{
+  font-weight: 700;
+  letter-spacing: 5px;
+  font-size: 30px;
+}
+
+#description{
+  font-size: 20px;
+}
+
+#textdata{
+  padding: 10px 30px;
+  font-size: 17px; 
+  font-weight: 500;
+  line-height: 35px;
+}
+
+  #cardimg{
+    border: 2px solid rgb(241, 199, 135);
+    border-radius: 7px;
+    height: 250px;
+    width: 350px;
+  }
