@@ -1,0 +1,31 @@
+.addContainer {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 150px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.addinput {
+  border-radius: 5px;
+  padding: 30px 110px;
+  border: none;
+  font-weight: 600;
+  
+}
+
+.addbtn {
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  text-align: center;
+  padding: 10px 30px;
+  font-weight: 600;
+  font-size: large;
+  letter-spacing: 2px;
+  cursor: pointer;
+  background-color: rgb(70, 17, 105);
+  color: white;
+  align-self: center;
+}

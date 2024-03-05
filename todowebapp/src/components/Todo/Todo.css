@@ -1,0 +1,54 @@
+.todoitems {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 5px;
+  background-color: rgb(40, 9, 61);
+  height: 250px;
+  width: 200px;
+  flex-wrap: wrap;
+  color: white;
+  border-radius: 5px;
+  padding: 0px 20px;
+}
+
+.todospan {
+    margin-top: 10px;
+  text-align: left;
+  font-weight: 700;
+}
+
+.todostatus {
+    margin-top: 15px;
+    text-align: left;
+    font-weight: 500;
+  }
+
+.editinput {
+  border-radius: 5px;
+  border: none;
+}
+
+.editbtn {
+  border: none;
+  background-color: blue;
+  color: white;
+  margin-top: 5px;
+  width: 150px;
+  border-radius: 5px;
+}
+
+.todobtn {
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px 20px;
+  font-size: small;
+  letter-spacing: 2px;
+  background-color: blue;
+  color: white;
+  width: 95%;
+  margin-top: 3px;
+  align-self: center;
+}

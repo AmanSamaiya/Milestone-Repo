@@ -1,0 +1,16 @@
+.heading{
+    letter-spacing: 4px;
+    margin-top: 50px;
+    color: white;
+    
+}
+
+
+.todoContainer{
+    margin-top: 40px;
+    padding: 20px 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
